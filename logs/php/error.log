@@ -1,0 +1,62 @@
+[30-Sep-2023 23:21:08 UTC] Cron unschedule event error for hook: do_pings, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[]}
+[03-Oct-2023 19:53:21 UTC] Cron reschedule event error for hook: wp_https_detection, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[03-Oct-2023 19:53:21 UTC] Cron unschedule event error for hook: wp_https_detection, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[03-Oct-2023 19:53:26 UTC] Cron reschedule event error for hook: wp_https_detection, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[03-Dec-2023 04:22:35 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "realmadridchild_wp_enqueue_scripts" not found or invalid function name in C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\general-template.php(3052): do_action('wp_head')
+#7 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-content\themes\twentytwentyone\header.php(20): wp_head()
+#8 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\template.php(790): require_once('C:\\Users\\moaya\\...')
+#9 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\template.php(725): load_template('C:\\Users\\moaya\\...', true, Array)
+#10 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-content\themes\realmadrid-child\templates\custom-template.php(10): get_header()
+#12 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\moaya\\...')
+#13 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-blog-header.php(19): require_once('C:\\Users\\moaya\\...')
+#14 C:\Users\moaya\Sites\local\assign3-100897453\app\public\index.php(17): require('C:\\Users\\moaya\\...')
+#15 {main}
+  thrown in C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php on line 324
+[03-Dec-2023 04:22:43 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "realmadridchild_wp_enqueue_scripts" not found or invalid function name in C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\general-template.php(3052): do_action('wp_head')
+#7 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-content\themes\twentytwentyone\header.php(20): wp_head()
+#8 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\template.php(790): require_once('C:\\Users\\moaya\\...')
+#9 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\template.php(725): load_template('C:\\Users\\moaya\\...', true, Array)
+#10 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-content\themes\realmadrid-child\templates\custom-template.php(10): get_header()
+#12 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\moaya\\...')
+#13 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-blog-header.php(19): require_once('C:\\Users\\moaya\\...')
+#14 C:\Users\moaya\Sites\local\assign3-100897453\app\public\index.php(17): require('C:\\Users\\moaya\\...')
+#15 {main}
+  thrown in C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php on line 324
+[03-Dec-2023 04:23:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "realmadridchild_wp_enqueue_scripts" not found or invalid function name in C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\general-template.php(3052): do_action('wp_head')
+#7 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-content\themes\twentytwentyone\header.php(20): wp_head()
+#8 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\template.php(790): require_once('C:\\Users\\moaya\\...')
+#9 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\template.php(725): load_template('C:\\Users\\moaya\\...', true, Array)
+#10 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-content\themes\realmadrid-child\templates\custom-template.php(10): get_header()
+#12 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\moaya\\...')
+#13 C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-blog-header.php(19): require_once('C:\\Users\\moaya\\...')
+#14 C:\Users\moaya\Sites\local\assign3-100897453\app\public\index.php(17): require('C:\\Users\\moaya\\...')
+#15 {main}
+  thrown in C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-includes\class-wp-hook.php on line 324
+[03-Dec-2023 04:28:39 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\moaya\Sites\local\assign3-100897453\app\public\wp-content\themes\realmadrid-child\templates\custom-template.php on line 32

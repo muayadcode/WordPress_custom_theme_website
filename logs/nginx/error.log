@@ -1,0 +1,3 @@
+2023/09/30 20:15:07 [error] 10116#25220: *1943 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "OPTIONS /wp-json/wp/v2/blocks/70?_locale=user HTTP/1.1", upstream: "fastcgi://127.0.0.1:10026", host: "localhost:10028", referrer: "http://localhost:10028/wp-admin/post.php?post=46&action=edit"
+2023/10/04 01:18:43 [alert] 17056#25844: worker process 19492 exited with code C0000142
+2023/10/04 01:18:43 [alert] 17056#25844: could not respawn worker
